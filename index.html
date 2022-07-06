@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+</head>
+<body>
+    <container>
+        <textarea id="lines" placeholder="paste lines"></textarea>
+        <div>QUESTION:</div>
+        <div id="question">Wait a text...</div>
+        <div>ANSWER:</div>
+        <div id="answer">Wait a text...</div>
+        <input id="accept" type="button" value="kruto" onclick="accept_riddle();" disabled/>
+        <input id="decline" type="button" value="nahuy" onclick="decline_riddle();" disabled/>
+        <input id="cancel" type="button" value="cancel" onclick="cancel();"/>
+        </br>
+        <input id="start" type="button" value="start" onclick="start();" />
+
+        <div id="output">OUTPUT</div>
+    
+        <script src="filter.js"></script>
+    </container>
+</body>
+</html>
